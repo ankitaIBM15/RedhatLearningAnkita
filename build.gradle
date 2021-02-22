@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+def deployDir = "$projectDir/dist/"
+
+group 'com.nscorp'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {
+        url 'http://takodana.atldc.nscorp.com:8084/nexus/content/groups/NSRepository/'
+    }
+}
+
+dependencies {
+         compile fileTree(dir: 'lib', include: ['*.jar'])
+}
+
+war {
+    webXml = file('src/main/resources/web.xml')
+    archiveName = 'EisMain.war'
+    destinationDir = file "$deployDir"
+}

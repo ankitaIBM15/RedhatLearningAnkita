@@ -1,0 +1,169 @@
+body 
+{
+	scrollbar-face-color:#5D7B9D;
+	scrollbar-arrow-color:whitesmoke;
+	scrollbar-darkshadow-color:whitesmoke;
+}
+A.change
+{
+    font-size: 7pt;
+    color: dimgray;
+    font-family: verdana;
+    text-decoration: none;
+}
+A.change:hover
+{
+    font-size: 7pt;
+    color: dimgray;
+    font-family: verdana;
+    text-decoration: underline;
+}
+
+A.stock
+{
+    font-size: 7pt;
+    color: whitesmoke;
+    font-family: verdana;
+    text-decoration: none;
+}
+A.stock:hover
+{
+    font-size: 7pt;
+    color: whitesmoke;
+    font-family: verdana;
+    text-decoration: underline;
+}
+
+A.fav
+{
+    font-size: 7pt;
+    color: slategray;
+    font-family: verdana;
+    text-decoration: none;
+}
+A.fav:hover
+{
+    font-size: 7pt;
+    color: dimgray;
+    font-family: verdana;
+    text-decoration: underline;
+}
+
+	
+.hov
+{
+	cursor: hand;
+	text-align: left;
+	display:block;
+}
+.hovRight
+{
+	cursor: hand;
+	text-align: left;
+	display:block;
+}
+.Right
+{
+	cursor: hand;
+	text-align: right;
+	font-family:Tahoma;
+	font-size:8pt;
+}
+
+.menutitle{
+cursor:pointer;
+margin-bottom: 5px;
+margin-left: -4px;
+background-color:#ECECFF;
+color:#000000;
+width:140px;
+padding:2px;
+text-align:center;
+font-weight:bold;
+border:navy;
+/*/*/border:1px solid #000000;/* */
+}
+
+.submenu{
+margin-bottom: 0.5em;
+}
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+margin-top: -5px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: black;
+background-color: #e1e1e1; /* You Can Change this color */
+border: 2px solid #e1e1e1; /*You can change this color*/
+}
+
+.hovermenu ul li a:hover{
+background-color: #e5e5e5; /*You Can Change This Color*/
+border-style: outset;
+}
+
+.hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+background-color: yellow;
+}
+
+.hovermenu ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+
+.nonActiveVid {
+	border-style: hidden;
+	background-color:#e1e1e1; 
+}
+ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 1.8em;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #00CC33;
+	text-decoration: none;
+	text-indent: 5px;
+	list-style-position: outside;
+	list-style-image: url(arrow.gif);
+	list-style-type: square;
+	padding: 6px;
+	margin: 2px;
+	margin-top: -1px;
+	
+}
+td, {
+	padding: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	position: relative;
+}
+
+

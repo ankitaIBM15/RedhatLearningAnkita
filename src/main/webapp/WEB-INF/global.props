@@ -1,0 +1,41 @@
+#
+# General properties for EisMain app
+#
+
+
+
+
+environment=prod
+#environment=test
+
+# URL
+TESTURL = http://ieorqaapps.atldc.nscorp.com:8580
+QAURL = http://ieorqaapps.atldc.nscorp.com:8480
+PRODURL = http://locoeisprod.atldc.nscorp.com:8480
+
+TESTIEORURL = http://ieorqaapps.atldc.nscorp.com
+PRODIEORURL = http://locoeisprod.atldc.nscorp.com
+
+TESTTONURL = http://ieorqaapps.atldc.nscorp.com/cgi-bin/TonRtngABC/qa
+PRODTONURL = http://locoeisprod.atldc.nscorp.com/cgi-bin/TonRtngABC/prod
+
+TESTWLURL = https://testwww2.nscorp.com
+QAWLURL = https://qawww2.nscorp.com
+PRODWLURL = https://www2.nscorp.com
+
+TESTTMSURL = http://testwww.nscorp.com
+QATMSURL = http://qawww.nscorp.com
+PRODTMSURL = https://www2.nscorp.com
+
+
+
+FUELURL = http://irprod.nscorp.com/workspace/browse/get/Production/Locomotive%20Planning/Crew%20Call%20EIS?user=crewcall_dashboard&pass=crewcall_dashboard&bqtype=insight
+
+#POWERURL = http://irprod.nscorp.com/workspace/browse/get/Production/Locomotive%20Planning/Power%20Productivity%20Measurement.bqy?bqytype=insight&user=locoplan&password=locoplan
+POWERURL = http://irprod.nscorp.com/workspace/browse/get/Production/Locomotive%20Planning/Power%20Productivity%20Measurement
+
+
+
+
+
+
